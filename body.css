@@ -50,7 +50,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 450px;
-  background-image: url(/pictures/sunny-norway.jpeg);
+  background-image: url(sunny-norway.jpeg);
   background-repeat: no-repeat;
   background-position: 0% 20%;
   background-size: cover;
