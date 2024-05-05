@@ -107,30 +107,31 @@ body {
   margin-bottom: 60px;
 }
 
-.our-services-container {
+.outer-services-container {
   border-radius: 10px;
   background-color: var(--norway-blue);
   height: 387px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 8px;
   margin-bottom: 60px;
 }
 
 .inner-services-container {
   border-radius: 6px;
   background-color: white;
-  height: 375px;
-  width: 275px;
+  height: 100%;
+  width: 100%;
 }
 
 .hp-services-photo-section {
   height: 200px;
-  margin: 15px;
+  width: 100%;
 }
 
 .hp-about-photo {
-  width: 243px;
+  width: 100%;
   height: 200px;
   border-radius: 6px;
 }
@@ -685,48 +686,54 @@ body {
 
 /* HOME PAGE */
 .home-container {
+  border: 1px solid black;
   background-color: var(--norway-red);
   margin-left: -8px;
   margin-right: -8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .start-learning-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 450px;
+  height: 200px;
+  width: 100%;
   background-image: url(/pictures/sunny-norway.jpeg);
   background-repeat: no-repeat;
   background-position: 0% 20%;
   background-size: cover;
-  margin-top: 40px;
+  margin-top: 34px;
   border-bottom: 2px solid white;
 }
 
 .welcome-title {
   font-family: var(--logo-font);
-  font-size: 50px;
+  font-size: 26px;
   color: white;
 }
 
 .only-place-para {
-  margin-top: -20px;
+  margin-top: -0px;
   color: white;
   font-family: var(--font-fam);
-  font-size: var(--font-sz);
+  font-size: 12px;
 }
 
 .start-learning-button {
-  height: 40px;
-  width: 250px;
+  height: 30px;
+  width: 50%;
   background-color: var(--norway-blue);
   color: white;
   border: none;
   border-radius: 6px;
   padding: 8px;
-  font-size: var(--font-sz);
+  font-size: var(--phone-font-sz);
   font-family: var(--font-fam);
-  margin-top: 80px;
+  margin-top: 10px;
 }
 
 .start-learning-button:hover {
@@ -744,39 +751,43 @@ body {
 }
 
 .our-services-grid {
-  display: grid;
-  grid-template-columns: 285px 285px;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  column-gap: 200px;
+  width: 90%;
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
-.our-services-container {
+.outer-services-container {
   border-radius: 10px;
   background-color: var(--norway-blue);
-  height: 387px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 60px;
+  padding: 8px;
+  height: 60%;
+  width: 80%;
+  margin-bottom: 30px;
 }
 
 .inner-services-container {
   border-radius: 6px;
   background-color: white;
-  height: 375px;
-  width: 275px;
+  height: 100%;
+  width: 100%;
 }
 
 .hp-services-photo-section {
-  height: 200px;
-  margin: 15px;
+  height: 50%;
+  width: 100%;
 }
 
 .hp-about-photo {
-  width: 243px;
-  height: 200px;
+  height: 100%;
+  width: 100%;
   border-radius: 6px;
 }
 
@@ -784,15 +795,24 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 50%;
+  width: 100%;
+}
+
+.our-services-button-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .our-services-button {
-  width: 175px;
+  width: 50%;
   height: 30px;
   color: white;
   background-color: var(--norway-blue);
   font-family: var(--font-fam);
-  font-size: var(--font-sz);
+  font-size: var(--phone-font-sz);
   border: none;
   border-radius: 6px;
   margin-top: 20px;
@@ -815,6 +835,10 @@ body {
   color: white;
   opacity: 1;
   transition: 0s;
+}
+
+.hp-our-services-para-section {
+  width: 90%;
 }
 
 .hp-our-services-para {
