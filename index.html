@@ -4,14 +4,13 @@
     <title>Solaris Scholar</title>
 
     <!-- FILE LINKS -->
-                
+    <link rel="stylesheet" type="text/css" href="head-foot.css">
+    <link rel="stylesheet" type="text/css" href="body.css">
 
     <!-- FONT LINKS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="head-foot.css">
-    <link rel="stylesheet" type="text/css" href="body.css">
     <link href="https://fonts.cdnfonts.com/css/brittany-signature" rel="stylesheet">
 
     <!-- FAVICON -->
@@ -28,12 +27,11 @@
       <nav class="navbar">
         <!-- HEADER LEFT -->
         <div class="left-section">
-          <h2 class="ss-header-logo">Solaris Scholar</h2>
-        </div>
+          <a class="link about" href="about.html">About</a>
+          <a class="link" href="services.html">Services</a>
 
         <!-- HEADER RIGHT -->
         <div class="right-section">
-          <a class="link home" href="index.html">Home</a>
           <a class="link faq" href="FAQ.html">FAQs</a>
           <a class="link contact" href="contact.html">Contact</a>
         </div>
@@ -56,32 +54,40 @@
         </div>
 
         <div class="our-services-grid">
-          <div class="our-services-container">
+          <div class="outer-services-container">
             <div class="inner-services-container">
               <div class="hp-services-photo-section">
                 <img class="hp-about-photo" src="web.png">
               </div>
               <div class="our-services-section">
-                <button class="our-services-button"><a class="button-link" href="services.html">
+                <div class="our-services-button-section">
+                  <button class="our-services-button"><a class="button-link" href="services.html">
                   Our Services</a>
-                </button>
-                <p class="hp-our-services-para">Find out more about what we have to offer, and how it can help you.</p>
+                  </button>
+                </div>
+                <div class="hp-our-services-para-section">
+                  <p class="hp-our-services-para">Find out more about what we have to offer, and how it can help you.</p>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="our-services-container">
+          <div class="outer-services-container">
             <div class="inner-services-container">
               <div class="hp-services-photo-section">
                 <img class="hp-about-photo" src="web.png">
               </div>
               <div class="our-services-section">
-                <button class="our-services-button">
-                  <a class="button-link" href="about.html">About Solaris Scholar</a>
-                </button>
-                <p class="hp-our-services-para">
-                  Find out more about Solaris Scholar - who we are and what we represent.
-                </p>
+                <div class="our-services-button-section">
+                  <button class="our-services-button">
+                    <a class="button-link" href="about.html">About Solaris Scholar</a>
+                  </button>
+                </div>
+                <div class="hp-our-services-para-section">
+                  <p class="hp-our-services-para">
+                    Find out more about Solaris Scholar - who we are and what we represent.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -103,6 +109,8 @@
       <div class="footer-left">
         <p class="web-nav">Website navigation</p>
         <a class="footer-links" href="index.html">Register</a>
+        <a class="footer-links" href="index.html">Services</a>
+        <a class="footer-links" href="index.html">About</a>
         <a class="footer-links" href="FAQ.html">FAQs</a>
         <a class="footer-links" href="contact.html">Contact</a>
         <a class="footer-links" href="privacypolicy.html">Privacy Policy</a>
