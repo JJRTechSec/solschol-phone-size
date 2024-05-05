@@ -70,11 +70,11 @@
   font-size: var(--head-font-sz);
 }
 
-.home,
 .faq {
   margin-right: 10px;
 }
 
+.home:hover,
 .link:hover,
 .footer-links:hover {
   color: var(--norway-blue);
@@ -221,28 +221,23 @@
     flex: 1;
     align-items: center;
     height: var(--phone-head-height);
+    margin-right: 0px;
     margin-left: 10px;
-  }
-  
-  .ss-header-logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    font-family: var(--logo-font), Arial;
-    font-size: 16px;
-    height: var(--phone-head-height);
-    margin-left: 10px;
-    border-radius: 8px;
   }
   
   .middle-section {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    flex: 1;
-    height: var(--head-height);
+    align-items: center;
+    height: var(--phone-head-height);
+  }
+
+  .home {
+    color: white;
+    font-size: var(--phone-head-font-sz);
+    font-family: var(--logo-font);
+    text-decoration: none;
   }
   
   .link {
@@ -251,7 +246,7 @@
     font-size: var(--phone-head-font-sz);
   }
   
-  .home,
+  .about,
   .faq {
     margin-right: 10px;
   }
@@ -265,7 +260,7 @@
     display: flex;
     justify-content: right;
     flex: 1;
-    height: var(--head-height);
+    height: var(--phone-head-height);
     align-items: center;
     margin-right: 10px;
   }
