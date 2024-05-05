@@ -1229,7 +1229,6 @@ body {
   padding-left: 8px;
   padding-right: 8px;
   margin-bottom: -50px;
-  margin-top: 50px;
 }
 
 .founder-bio {
@@ -1284,7 +1283,7 @@ body {
 
 .about-title {
   font-family: var(--font-fam);
-  font-size: var(--phone-head-font-sz);
+  font-size: var(--font-sz);
 }
 
 .about-solaris-bio-section {
