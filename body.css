@@ -50,7 +50,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 450px;
-  background-image: url(sunny-norway.jpeg);
+  background-image: url(/pictures/sunny-norway.jpeg);
   background-repeat: no-repeat;
   background-position: 0% 20%;
   background-size: cover;
@@ -686,7 +686,6 @@ body {
 
 /* HOME PAGE */
 .home-container {
-  border: 1px solid black;
   background-color: var(--norway-red);
   margin-left: -8px;
   margin-right: -8px;
@@ -702,7 +701,7 @@ body {
   align-items: center;
   height: 200px;
   width: 100%;
-  background-image: url(sunny-norway.jpeg);
+  background-image: url(/pictures/sunny-norway.jpeg);
   background-repeat: no-repeat;
   background-position: 0% 20%;
   background-size: cover;
@@ -717,7 +716,7 @@ body {
 }
 
 .only-place-para {
-  margin-top: -0px;
+  margin-top: 20px;
   color: white;
   font-family: var(--font-fam);
   font-size: 12px;
@@ -725,7 +724,7 @@ body {
 
 .start-learning-button {
   height: 30px;
-  width: 50%;
+  width: 60%;
   background-color: var(--norway-blue);
   color: white;
   border: none;
@@ -751,7 +750,6 @@ body {
 }
 
 .our-services-grid {
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -807,7 +805,7 @@ body {
 }
 
 .our-services-button {
-  width: 50%;
+  width: 60%;
   height: 30px;
   color: white;
   background-color: var(--norway-blue);
@@ -893,7 +891,7 @@ body {
   background-color: var(--norway-blue);
   padding: 8px;
   border-radius: 10px;
-  margin: 30px 40px;
+  margin-bottom: 0px;
   width: 100%;
 }
 
@@ -932,6 +930,7 @@ body {
   border-radius: 10px;
   padding: 8px;
   margin: 30px 40px;
+  width: 100%;
 }
 
 .inner-read-faq-first-section {
@@ -961,6 +960,7 @@ body {
   justify-content: center;
   padding: 8px;
   border-radius: 10px;
+  width: 100%;
 }
 
 .inner-contact-form-section {
@@ -970,13 +970,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   position: relative;
   justify-content: center;
+  width: 100%;
 }
 
 .label {
@@ -997,7 +1000,7 @@ body {
 .input {
   display: flex;
   align-items: center;
-  width: 300px;
+  width: 90%;
   padding: 8px;
   border: 1px solid var(--norway-blue);
   border-radius: 8px;
@@ -1005,10 +1008,9 @@ body {
 }
 
 .query-box {
-  width: 300px;
+  width: 90%;
   height: 100px;
   max-height: 200px;
-  width: 302.67px;
   padding: 4px;
   border: 1px solid var(--norway-blue);
   border-radius: 6px;
