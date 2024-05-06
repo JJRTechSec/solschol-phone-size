@@ -260,13 +260,7 @@
     margin-right: 10px;
   }
   
-  /* FOOTER */
-  /*body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }*/
-  
+  /* FOOTER */  
   .footer{
     display: flex;
     flex-direction: row;
