@@ -1129,15 +1129,15 @@ body {
   justify-content: center;
   width: 90%;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 
 .outer-service-container {
   background-color: var(--norway-blue);
   padding: 8px;
   border-radius: 10px;
-  width: 90%;
-  height: 400px;
+  width: 100%;
+  height: 460px;
   margin-bottom: -30px;
 }
 
@@ -1149,9 +1149,10 @@ body {
 }
 
 .service-photo-section {
+  border: 1px solid red;
   border-radius: 6px 6px 0px 0px;
   height: 150px;
-  width: 100%;
+  width: 300px;
 }
 
 .service-photo {
