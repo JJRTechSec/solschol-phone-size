@@ -473,9 +473,34 @@ body {
   height: 290px;
 }
 
-.service-photo-section {
+.one-to-one-photo-section,
+.instagram-photo-section,
+.youtube-photo-section,
+.facebook-photo-section {
   border-radius: 6px 6px 0px 0px;
   height: 150px;
+}
+
+.one-to-one-photo-section {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.instagram-photo-section {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.youtube-photo-section {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.facebook-photo-section {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .service-photo {
@@ -1147,10 +1172,35 @@ body {
   height: 96%;
 }
 
-.service-photo-section {
+.one-to-one-photo-section,
+.instagram-photo-section,
+.youtube-photo-section,
+.facebook-photo-section {
   border-radius: 6px 6px 0px 0px;
   height: 150px;
   width: 260px;
+}
+
+.one-to-one-photo-section {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.instagram-photo-section {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.youtube-photo-section {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.facebook-photo-section {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .service-photo {
@@ -1292,7 +1342,7 @@ body {
 
 .about-logo-section {
   width: 100%;
-  background-image: url(/pictures/website-banner.png);
+  background-image: url(banner-phone.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
