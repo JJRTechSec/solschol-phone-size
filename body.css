@@ -133,7 +133,7 @@ body {
 .hp-about-photo {
   width: 100%;
   height: 200px;
-  border-radius: 6px;
+  border-radius: 6px 6px 0px 0px;
 }
 
 .our-services-section {
@@ -463,45 +463,47 @@ body {
   background-color: var(--norway-blue);
   padding: 8px;
   border-radius: 10px;
-  height: 308px;
+  height: 438px;
 }
 
 .inner-service-container {
   background-color: white;
   padding: 8px;
   border-radius: 8px;
-  height: 290px;
+  height: 96%;
 }
 
 .one-to-one-photo-section,
 .instagram-photo-section,
 .youtube-photo-section,
-.facebook-photo-section {
+.facebook-photo-section
+/*.spotify-photo-section*/ {
+  border: 1px solid red;
   border-radius: 6px 6px 0px 0px;
-  height: 150px;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .one-to-one-photo-section {
-  background-image: url();
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url(/pictures/one-to-one-img-lrg);
+  background-position: 0% 20%;
 }
 .instagram-photo-section {
   background-image: url();
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .youtube-photo-section {
   background-image: url();
-  background-size: cover;
-  background-repeat: no-repeat;
 }
+
 .facebook-photo-section {
   background-image: url();
-  background-size: cover;
-  background-repeat: no-repeat;
 }
+
+/*.spotify-photo-section {
+  background-image: url();
+}*/
 
 .service-photo {
   border-radius: 6px 6px 0px 0px;
@@ -551,6 +553,13 @@ body {
   font-size: var(--font-sz);
   text-align: justify;
 }
+
+/*.extra-service-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}*/
 
 /* ABOUT */
 .about-header-section {
@@ -811,7 +820,7 @@ body {
 .hp-about-photo {
   height: 100%;
   width: 100%;
-  border-radius: 6px;
+  border-radius: 6px 6px 0px 0px;
 }
 
 .our-services-section {
@@ -1175,33 +1184,32 @@ body {
 .one-to-one-photo-section,
 .instagram-photo-section,
 .youtube-photo-section,
-.facebook-photo-section {
+.facebook-photo-section
+/*.spotify-photo-section*/ {
   border-radius: 6px 6px 0px 0px;
   height: 150px;
   width: 260px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .one-to-one-photo-section {
-  background-image: url();
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url(/pictures/one-to-one-img-lrg);
 }
 .instagram-photo-section {
   background-image: url();
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .youtube-photo-section {
   background-image: url();
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .facebook-photo-section {
   background-image: url();
-  background-size: cover;
-  background-repeat: no-repeat;
 }
+
+/*.spotify-photo-section {
+  background-image: url();
+}*/
 
 .service-photo {
   border-radius: 6px 6px 0px 0px;
@@ -1251,6 +1259,13 @@ body {
   font-size: var(--font-sz);
   text-align: justify;
 }
+
+/*.extra-service-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}*/
 
 /* ABOUT */
 .about-header-section {
@@ -1342,7 +1357,7 @@ body {
 
 .about-logo-section {
   width: 100%;
-  background-image: url(banner-phone.png);
+  background-image: url(/pictures/banner-phone.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
