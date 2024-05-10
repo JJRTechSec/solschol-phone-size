@@ -486,7 +486,7 @@ body {
 }
 
 .one-to-one-photo-section {
-  background-image: url(/pictures/one-to-one-img-lrg);
+  background-image: url(one-to-one-img-lrg);
   background-position: 0% 20%;
 }
 .instagram-photo-section {
@@ -1194,7 +1194,7 @@ body {
 }
 
 .one-to-one-photo-section {
-  background-image: url(/pictures/one-to-one-img-lrg);
+  background-image: url(one-to-one-img-lrg);
 }
 .instagram-photo-section {
   background-image: url();
