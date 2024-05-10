@@ -50,7 +50,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 450px;
-  background-image: url(/pictures/sunny-norway.jpeg);
+  background-image: url(sunny-norway.jpeg);
   background-repeat: no-repeat;
   background-position: 0% 20%;
   background-size: cover;
@@ -128,12 +128,26 @@ body {
 .hp-services-photo-section {
   height: 200px;
   width: 100%;
+  background-image: url(synne-teaching3);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.hp-about-photo-section {
+  height: 200px;
+  width: 100%;
+  background-image: url(synne-teaching5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 40% 10%;
+  border-radius: 6px 6px 0px 0px;
 }
 
 .hp-about-photo {
   width: 100%;
   height: 200px;
-  border-radius: 6px 6px 0px 0px;
 }
 
 .our-services-section {
@@ -478,7 +492,6 @@ body {
 .youtube-photo-section,
 .facebook-photo-section
 /*.spotify-photo-section*/ {
-  border: 1px solid red;
   border-radius: 6px 6px 0px 0px;
   height: 250px;
   background-size: cover;
@@ -486,23 +499,23 @@ body {
 }
 
 .one-to-one-photo-section {
-  background-image: url(one-to-one-img-lrg);
-  background-position: 0% 20%;
+  background-image: url(synne-teaching4);
 }
 .instagram-photo-section {
-  background-image: url();
+  background-image: url(solaris-instagram);
 }
 
 .youtube-photo-section {
-  background-image: url();
+  background-image: url(solaris-youtube);
 }
 
 .facebook-photo-section {
-  background-image: url();
+  background-image: url(synne-teaching3);
+  background-position: 0% 30%;
 }
 
 /*.spotify-photo-section {
-  background-image: url();
+  background-image: url(/pictures/solaris-spotify);
 }*/
 
 .service-photo {
@@ -598,11 +611,17 @@ body {
 }
 
 .founder-photo-section {
-  width: 318px;
+  height: 250px;
+  width: 100%;
+  background-image: url(synne-headshot.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 20%;
+  border-radius: 8px 8px 0px 0px;
 }
 
 .founder-photo {
-  width: 334px;
+  width: 100%;
   height: 250px;
   border-radius: 8px 8px 0px 0px;
 }
@@ -649,7 +668,7 @@ body {
 
 .about-logo-section {
   height: 250px;
-  background-image: url(/pictures/websitebanner.png);
+  background-image: url(websitebanner.png);
 }
 
 .about-logo {
@@ -735,7 +754,7 @@ body {
   align-items: center;
   height: 200px;
   width: 100%;
-  background-image: url(/pictures/sunny-norway.jpeg);
+  background-image: url(sunny-norway.jpeg);
   background-repeat: no-repeat;
   background-position: 0% 20%;
   background-size: cover;
@@ -813,8 +832,23 @@ body {
 }
 
 .hp-services-photo-section {
-  height: 50%;
+  height: 200px;
   width: 100%;
+  background-image: url(synne-teaching3);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.hp-about-photo-section {
+  height: 200px;
+  width: 100%;
+  background-image: url(synne-teaching5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 40% 10%;
+  border-radius: 6px 6px 0px 0px;
 }
 
 .hp-about-photo {
@@ -1194,17 +1228,17 @@ body {
 }
 
 .one-to-one-photo-section {
-  background-image: url(one-to-one-img-lrg);
+  background-image: url(synne-teaching4);
 }
 .instagram-photo-section {
-  background-image: url();
+  background-image: url(solaris-instagram);
 }
 
 .youtube-photo-section {
-  background-image: url();
+  background-image: url(solaris-youtube);
 }
 .facebook-photo-section {
-  background-image: url();
+  background-image: url(synne-teaching3);
 }
 
 /*.spotify-photo-section {
@@ -1306,7 +1340,13 @@ body {
 }
 
 .founder-photo-section {
+  height: 250px;
   width: 100%;
+  background-image: url(synne-headshot.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 20%;
+  border-radius: 8px 8px 0px 0px;
 }
 
 .founder-photo {
@@ -1357,7 +1397,7 @@ body {
 
 .about-logo-section {
   width: 100%;
-  background-image: url(/pictures/banner-phone.png);
+  background-image: url(banner-phone.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
